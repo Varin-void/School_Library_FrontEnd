@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.L-Padding-Left {
+  padding: 10vh 0vh 10vh 10vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.L-Padding-Right {
+  padding: 10vh 10vh 10vh 0vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.L-Row-Parent {
+  --bs-gutter-x: 0rem !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.L-Shadow-Left {
+  box-shadow: 5px 20px 40px white;
+}
+
+.L-Shadow-Right {
+  box-shadow: -5px 20px 30px #4d94e7;
+}
+
+.Nav-Shadow {
+  box-shadow: 4px 10px 40px #4d94e7;
+}
+
+.R-Shadow {
+  box-shadow: 10px 10px 60px #4d94e7;
+}
+.L-Font {
+  font-weight: 800;
+  font-size: larger;
+}
+
+.L-Header-Font {
+  font-size: 120px;
+}
+
+.User-Detail-Container {
+  width: 100%;
+  height: 100px;
+}
+
+.Image-Container {
+  width: 100%;
+  min-height: 300px;
+  height: 80%;
+}
+
+#dropdown-basic-button {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  font-weight: 800;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.Image-Picker {
+  width: 100%;
+  min-height: 50px;
+  height: 20%;
+}
+
+#N-Image-Round {
+  border-top-left-radius: 0% !important;
+  border-top-right-radius: 0% !important;
+}
+.Swiper-Button {
+  width: 10vw;
+  height: 10vw;
+  max-width: 50px;
+  max-height: 50px;
+  background-color: white;
+  color: black;
+}
+
+.M-Description {
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.M-Shadow-Box {
+  box-shadow: 0px 0px 60px 10px rgb(203, 203, 203);
+}
+
+.Home-Icon {
+  width: 50px;
+  height: 50px;
+}
+
+.Home-Icon-Container {
+  position: absolute;
+  left: 0;
+  border: 1px solid black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: -100px;
+  margin-left: 50px;
+  background-color: whitesmoke;
+  width: 75px;
+  height: 75px;
+  box-shadow: -5px 5px 20px 2px rgb(26, 21, 21);
 }
 
-.App-link {
-  color: #61dafb;
+.logo{ 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  color: #fff; 
+  padding: 10px; 
+  font-size: 0.7rem; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Logout{
+  margin-top: auto;
+  margin-bottom: 10px;
 }
